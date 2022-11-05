@@ -45,7 +45,7 @@ function App() {
       <div className="mt-5 row" style={{"background-color": "black", "align-items": "center", "justify-content": "center"}}>
         <img src={logo} style={{"height": "5vmin"}} alt="logo"></img>
         <h1 style={{"color": "white"}}>IoT Messaging</h1>
-        <a href="https://aws.amazon.com/what-is-cloud-computing" className="pl-4"><img src="https://d0.awsstatic.com/logos/powered-by-aws-white.png" alt="Powered by AWS Cloud Computing"></img></a>
+        <a href="https://www.etsmtl.ca/" className="pl-4"><img src="https://www.etsmtl.ca/content/img/logo_ets.svg" alt="Powered by ETS Cloud Computing"></img></a>
       </div>
       <div className="row">
         <div id="publisher" className="col ml-5 mt-5 mb-5 mr-3" style={{"border-style": "solid", "border-width": "2px"}}>
