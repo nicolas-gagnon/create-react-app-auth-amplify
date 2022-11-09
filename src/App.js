@@ -23,7 +23,7 @@ async function ProcessMessage(payload) {
   let time=payload.value.time;
   let sensor_a0=payload.value.sensor_a0;
   let scrollBox = document.getElementById('incomingMsg');
-  scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> Time: " + time + "<br></br> Sensor_a0: " + sensor_a0 + "<br></br>";
+  scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> Temperature: " + time + "<br></br>  <br></br>";
   scrollBox.scrollTop = scrollBox.scrollHeight;
 }
 
