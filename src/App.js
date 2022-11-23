@@ -20,8 +20,8 @@ Amplify.addPluggable(new AWSIoTProvider({
 async function ProcessMessage(payload) {
   console.log('Message received', payload);
   let topic=payload.value[Object.getOwnPropertySymbols(payload.value)[0]];
-  let time=payload.value.ID;
-  let sensor_a0=payload.value.Temperature;
+  let ID=payload.value.ID;
+  let Temperature=payload.value.Temperature;
   let scrollBox = document.getElementById('incomingMsg');
   scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> ID: " + ID + "<br></br>   Temperature: " + Temperature + "<br></br>";
   scrollBox.scrollTop = scrollBox.scrollHeight;
