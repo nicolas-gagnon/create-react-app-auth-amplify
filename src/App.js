@@ -21,9 +21,9 @@ async function ProcessMessage(payload) {
   console.log('Message received', payload);
   let topic=payload.value[Object.getOwnPropertySymbols(payload.value)[0]];
   let temperature=payload.value.temperature;
-  let temps=payload.value.temps;
+  let id=payload.value.temps;
   let scrollBox = document.getElementById('incomingMsg');
-  scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> Temperature: " + temperature + "<br></br> temps: " + temps + "  <br></br>";
+  scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> id: " + id + " <br></br>  Temperature: " + temperature + " <br></br>";
   scrollBox.scrollTop = scrollBox.scrollHeight;
 }
 
