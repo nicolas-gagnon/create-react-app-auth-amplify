@@ -23,7 +23,7 @@ async function ProcessMessage(payload) {
   let temperature=payload.value.temperature;
   let id=payload.value.id;
   let scrollBox = document.getElementById('incomingMsg');
-  scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> id: " + id + " <br></br>  Temperature: " + temperature + " <br></br>";
+  scrollBox.innerHTML += "<b>NEW MESSAGE: </b><br></br> Topic: " + topic + "<br></br> Id: " + id + " <br></br>  Temperature: " + temperature + " <br></br>";
   scrollBox.scrollTop = scrollBox.scrollHeight;
 }
 
