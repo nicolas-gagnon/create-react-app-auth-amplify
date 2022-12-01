@@ -46,7 +46,7 @@ function App() {
         <img src={logo} style={{"height": "5vmin"}} alt="logo"></img>
         <h1 style={{"color": "white"}}>IoT POC </h1>
         <a href="https://www.etsmtl.ca/" className="pl-4"><img src="https://www.etsmtl.ca/content/img/logo_ets.svg" width="400" 
-     height="300"  alt="Powered by ETS Cloud Computing"></img></a>
+     height="300"  alt="Powered by ETS The Cloud Computing"></img></a>
       </div>
       <div className="row">
         <div id="publisher" className="col ml-5 mt-5 mb-5 mr-3" style={{"border-style": "solid", "border-width": "2px"}}>
